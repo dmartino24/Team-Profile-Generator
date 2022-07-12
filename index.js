@@ -196,6 +196,9 @@ const writeFile = (fileContent) => {
     if (err) {
       console.log(err);
     }
+    else{
+      console.log("Click on the dist folder to access index.html");
+    }
   });
 };
 
